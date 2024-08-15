@@ -1,0 +1,71 @@
+.listcontainer{
+    display: flex;
+    justify-content: center;
+    height: 76%;
+}
+.list{
+    margin-top: 20px;
+    width: 95%;
+    border-radius: 10px;
+    background-color: rgb(16, 16, 16);
+    overflow: auto;
+    overflow-x: hidden;
+}
+.list::-webkit-scrollbar{
+    width: 10px;
+    background-color: #636363;
+    border-radius: 10px;
+}
+.list::-webkit-scrollbar-thumb{
+    background-color: #363636;
+    border-radius: 10px;
+}
+.list::-webkit-scrollbar-thumb:hover{
+    background-color: #242424;
+    width: 15px;
+    
+}
+.item{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 25px;
+  }
+.itemtext{
+    color: rgb(147, 147, 147);
+    font-size: large;
+    width: 100%;
+}
+  
+input[name = "check"]{
+    height: 20px;
+    cursor: pointer;
+}
+#edit, #del{
+    border-radius: 8px;
+    background-color:  #642d81;
+    border: none;
+    height: 30px;
+    width: 60px;
+    color: #e7e7e7;
+    font-weight: bold;
+    cursor: pointer;
+}
+.completed .itemtext {
+    color: gray;
+    text-decoration: line-through;
+}
+hr{
+    width: 92%;
+    border: 1px solid #3b3b3b;
+}
+#listempty{
+    color: #363636;
+    font-size: xx-large;
+    text-align: center;
+    bottom: -45%;
+    position: relative;
+}

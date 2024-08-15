@@ -1,0 +1,27 @@
+@media screen and (max-width: 1030px){
+    .container{
+        height: 1240px;
+        transition: 1s;
+    }
+    
+    .listcontainer{
+        height: 1030px;
+        transition: 1s;
+    }
+}
+@media screen and (max-width: 500px){
+    .container{
+        width: 400px;
+        transition: 1s;
+        height: 830px;
+    }
+    
+    .listcontainer{
+        height: 80%;
+        transition: 1s;
+    }
+    .add{
+        margin-left: 10px;
+        width: 95%;
+    }
+}
